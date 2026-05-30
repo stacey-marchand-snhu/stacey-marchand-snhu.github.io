@@ -43,21 +43,21 @@ All of the above have significantly improved (and contribute directly to) my eve
 
 ### Academic Recognition & Professional Experience
 
-Throughout my academic journey with SNHU, I have been recognized on the **Honor List** 10 times and the **President's List** 2 times for academic excellence. I have also built a diverse professional background spanning multiple roles in technology. For a complete record of my awards, honors, and work history, please visit my **[Merit Page](https://meritpages.com/Stacey-Marchand/7902591)**.
+Throughout my academic journey with SNHU, I have been recognized on the **Honor List** 10 times and the **President's List** 2 times for academic excellence. I have also built a diverse professional background spanning multiple roles in technology. For a complete record of my awards, honors, and work history, please visit my **[Merit Page](https://meritpages.com/Stacey-Marchand/7902591){:target="_blank"}**.
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; justify-content: center; align-items: center;">
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2026-C-2-Mar-Apr-/188068774"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2026 C-2" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2026-C-1-Jan-Mar-/182406190"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2026 C-1" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-6-Oct-Dec-/176625352"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2025 C-6" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-5-Sep-Oct-/171162650"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2025 C-5" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2024-C-3-May-Jun-/137519313"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2024 C-3" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-24EW4/133168498"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 24EW4" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-24EW3/128815138"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 24EW3" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW1/119473902"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 23EW1" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW6/115040076"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 23EW6" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW5/112803649"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 23EW5" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/115027332"><img src="/assets/images/presidents-list-badge.png" alt="President's List" style="height: 90px;"></a>
-  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/187982242"><img src="/assets/images/presidents-list-badge.png" alt="President's List" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2026-C-2-Mar-Apr-/188068774" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2026 C-2" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2026-C-1-Jan-Mar-/182406190" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2026 C-1" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-6-Oct-Dec-/176625352" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2025 C-6" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-5-Sep-Oct-/171162650" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2025 C-5" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2024-C-3-May-Jun-/137519313" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 2024 C-3" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-24EW4/133168498" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 24EW4" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-24EW3/128815138" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 24EW3" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW1/119473902" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 23EW1" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW6/115040076" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 23EW6" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW5/112803649" target="_blank"><img src="/assets/images/honor-roll-badge.png" alt="Honor Roll 23EW5" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/115027332" target="_blank"><img src="/assets/images/presidents-list-badge.png" alt="President's List" style="height: 90px;"></a>
+  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/187982242" target="_blank"><img src="/assets/images/presidents-list-badge.png" alt="President's List" style="height: 90px;"></a>
 </div>
 <br>
 
@@ -109,7 +109,7 @@ This is a MEAN stack travel application with a Handlebars-based customer site an
 
 Prior to these enhancements, the following code review was performed, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancements:
 
-[![Code Review: CS-465 Full Stack Application](https://img.youtube.com/vi/Yff1AmTfMEM/0.jpg)](https://youtu.be/Yff1AmTfMEM)
+[![Code Review: CS-465 Full Stack Application](https://img.youtube.com/vi/Yff1AmTfMEM/0.jpg)](https://youtu.be/Yff1AmTfMEM){:target="_blank"}
 
 The enhanced version of the application is presented here as a pull request, with accompanying commentary of the changes made and how they address the identified weaknesses:
 
@@ -128,7 +128,7 @@ This is the warehouse stock management Android application I developed from scra
 
 Prior to this enhancement, I also performed a code review on the original artifact, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancements:
 
-[![Code Review: CS-360 Warehouse Inventory App](https://img.youtube.com/vi/XjDkEHj9TWs/0.jpg)](https://youtu.be/XjDkEHj9TWs)
+[![Code Review: CS-360 Warehouse Inventory App](https://img.youtube.com/vi/XjDkEHj9TWs/0.jpg)](https://youtu.be/XjDkEHj9TWs){:target="_blank"}
 
 The enhanced version of the application is presented here as a pull request, with accompanying commentary of the changes made and how they address the identified weaknesses:
 
