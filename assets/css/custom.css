@@ -1,0 +1,10 @@
+/* Gold accent color matching the midnight theme */
+.gold {
+  color: #D4AF37;
+  font-weight: bold;
+}
+
+strong.gold, b.gold {
+  color: #D4AF37;
+}
+
