@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 ## Welcome!
-This is my ePortfolio, a collection of some of my capstone work from the Computer Science program at Southeastern New Hampshire University (SNHU). In here, you will find a brief overview of my academic and professional journey, along with a series of artifacts that demonstrate my skills and growth in software design, algorithms, databases, and more. Each artifact is accompanied by a narrative that explains the context, the enhancements I made, and how it relates to the course outcomes. I hope you find this portfolio informative and reflective of my dedication to continuous learning and professional development in the field of computer science!
+This is my ePortfolio, a collection of some of my capstone work from the Computer Science program at Southern New Hampshire University (SNHU). In here, you will find a brief overview of my academic and professional journey, along with a series of artifacts that demonstrate my skills and growth in software design, algorithms, databases, and more. Each artifact is accompanied by a narrative that explains the context, the enhancements I made, and how it relates to the course outcomes. I hope you find this portfolio informative and reflective of my dedication to continuous learning and professional development in the field of computer science!
 
 ---
 
