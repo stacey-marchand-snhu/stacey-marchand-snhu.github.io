@@ -4,7 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-# Enhancement One
+# Enhancement Two
 # Data Structures & Algorithms
 
 This narrative explains my enhancement to the CS-360 Mobile Application I created called "HopStock".
@@ -12,6 +12,10 @@ This narrative explains my enhancement to the CS-360 Mobile Application I create
 ## Overview
 
 The original artifact was an Android mobile inventory application that allowed users to log in, view warehouse inventory, search and filter stock items, edit item details, update quantities, and receive out-of-stock notifications. It was a useful mobile application, but in its original form, it primarily reflected the current inventory state. A user could see how many units were available at the moment, but the app did not preserve enough historical stock information to help users understand how inventory levels were changing over time.
+
+**Original Artifact:** https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app
+
+**Enhancement Two Branch:** https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app/tree/history-graph
 
 ## Justification & Improvement
 
@@ -31,9 +35,17 @@ This enhancement also gave me an opportunity to address the code review items fr
 
 ## Course Outcomes
 
-I met the course outcomes I planned to address in Module One. This enhancement supports Outcome 1 because it provides warehouse staff and managers with better information for organizational decision-making, including prioritizing reorders and forecasting, by analyzing stock history. It supports Outcome 2 because the graph and summary text translate raw stock history and regression output into an easy-to-understand visualization for the user. It strongly supports Outcome 3 because the enhancement required data structure design, chronological sorting, time-series transformation, linear regression, edge-case handling, testing, and trade-off evaluation. It also supports Outcome 4 because it applies mobile development, Room persistence, repository design, charting tools, and predictive analysis to an industry-specific inventory problem.
+I met the course outcomes I planned to address in Module One.
 
-I do not need to change my overall outcome coverage plan. This enhancement still aligns most directly with Outcomes 1, 2, 3, and 4, as planned in Module One. However, the final implementation also gives me additional support for Outcome 5. The password validation, login rate limiting, centralized preference handling, repository encapsulation, and safer lifecycle-aware UI updates show that I continued to think about security, misuse prevention, and maintainable architecture while completing the algorithmic work. I would not describe Outcome 5 as the primary focus of this enhancement, but the completed artifact is stronger because the code review improvements were addressed alongside the spotlight feature.
+**Outcome 1: <span class="gold">Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making.</span>** This enhancement supports this outcome because it provides warehouse staff and managers with better information for organizational decision-making, including prioritizing reorders and forecasting, by analyzing stock history and providing predictive insights.
+
+**Outcome 2: <span class="gold">Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.</span>** This enhancement supports this outcome because the graph and summary text translate raw stock history and regression output into an easy-to-understand visualization and explanation for the user. The trend line, projected out-of-stock date, and depletion rate communicate technical algorithmic output in an accessible way.
+
+**Outcome 3: <span class="gold">Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.</span>** This enhancement strongly supports this outcome because it required data structure design, chronological sorting, time-series transformation, linear regression implementation, thoughtful edge-case handling to avoid false projections, testing across realistic scenarios, and trade-off evaluation about when to show projections and when to avoid them.
+
+**Outcome 4: <span class="gold">Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.</span>** This enhancement supports this outcome by applying mobile development, Room persistence, repository design, charting tools, and predictive analysis to an industry-specific inventory management problem. The solution uses established Android development practices while introducing algorithmic analysis for practical business value.
+
+**Outcome 5: <span class="gold">Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.</span>** While not the primary focus of this enhancement, the final implementation also demonstrates this outcome through password validation, login rate limiting, centralized preference handling, repository encapsulation, and safer lifecycle-aware UI updates. These security and architectural improvements show that I continued to think about security, misuse prevention, and maintainable architecture while completing the algorithmic work.
 
 ## Enhancement Process
 

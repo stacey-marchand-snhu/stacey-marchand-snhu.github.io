@@ -13,6 +13,10 @@ This narrative explains my first enhancement to the CS-465 Full Stack Web Applic
 
 This was originally created as part of SNHU's CS-465 Full Stack Development course activities. The application is a travel site with a public-facing Express/Handlebars website, a MongoDB-backed REST API, and an administrative interface for managing trip records. For this enhancement, I focused on the administration site. The original admin interface was built in Angular, while the enhanced version rewrites it as a React and TypeScript single-page application using Vite, React Router, Tailwind CSS, reusable components, and a vastly more modern structure and appearance.
 
+**Original Artifact:** https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app
+
+**Enhancement One Branch:** https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-one-react-tailwind
+
 ## Justification & Improvement
 
 This artifact was selected because it presents a strong opportunity to show growth beyond simply making an application work better. The original version already demonstrated full-stack development concepts, including routing, API calls, authentication, trip management, and MongoDB integration. However, the enhanced version better represents my current software engineering skills because it focuses on maintainability, user experience, component organization, and holistic security. This made it a good fit for the ePortfolio because it shows that I can revisit an existing project, evaluate its weaknesses, and improve it in a professional, purposeful, and polished manner.
@@ -25,7 +29,17 @@ Security and reliability were also significantly improved, though the greatest i
 
 ## Course Outcomes
 
-This enhancement comprehensively meets the course outcomes I planned to address in Module One. It supports Outcome 1 by improving the administrative interface for users while also making the codebase easier for future developers to navigate and maintain. It supports Outcome 2 through clearer documentation via file headers, comments, and README updates that explain the new project structure and authentication flow. It supports Outcome 3 because the rewrite required evaluating design trade-offs, especially Angular versus React, local storage versus route-based navigation, local component logic versus shared, reusable components, and simpler implementation versus stronger validation and maintainability. It supports Outcome 4 by leveraging current professional tools and practices, including React, TypeScript, Vite, React Router, Axios, Tailwind CSS, ESLint, and Prettier. It also supports Outcome 5 through improvements to protected routes, authentication handling, token flow, validation, rate limiting, CORS behavior, and safer rendering of trip descriptions.
+This enhancement comprehensively meets the course outcomes I planned to address in Module One.
+
+**Outcome 1: <span class="gold">Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making.</span>** This enhancement supports this outcome by improving the administrative interface for users while also making the codebase easier for future developers to navigate and maintain. The improved structure, clear component organization, and comprehensive comments enable other developers to contribute to the project, and the better UI helps administrative users make informed decisions about trip management.
+
+**Outcome 2: <span class="gold">Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.</span>** This enhancement supports this outcome through clearer documentation via file headers, comments, and README updates that explain the new project structure and authentication flow. The enhanced UI also communicates states and actions more clearly to administrative users through toast notifications, error messages, confirmation dialogs, and intuitive layout.
+
+**Outcome 3: <span class="gold">Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.</span>** This enhancement supports this outcome because the rewrite required evaluating design trade-offs, especially Angular versus React, local storage versus route-based navigation, local component logic versus shared, reusable components, and simpler implementation versus stronger validation and maintainability. Each decision was deliberate and documented.
+
+**Outcome 4: <span class="gold">Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.</span>** This enhancement supports this outcome by leveraging current professional tools and practices, including React, TypeScript, Vite, React Router, Axios, Tailwind CSS, ESLint, and Prettier. These tools represent state-of-the-art practices in modern web development and are directly applicable to professional software engineering.
+
+**Outcome 5: <span class="gold">Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.</span>** This enhancement supports this outcome through improvements to protected routes, authentication handling, token flow, validation, rate limiting, CORS behavior, and safer rendering of trip descriptions. The security improvements are detailed in the Justification & Improvement section above.
 
 ## Enhancement Process
 
