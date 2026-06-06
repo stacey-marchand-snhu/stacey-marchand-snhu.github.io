@@ -16,6 +16,7 @@ This is my ePortfolio, a collection of some of my capstone work from the Compute
 - [Enhancement Portfolio](#enhancement-portfolio)
 - [Artifact One: CS-465 Full Stack Development - Travlr Website](#artifact-one-cs-465-full-stack-development---travlr-website)
 - [Artifact Two: CS-360 Android Application - HopStock](#artifact-two-cs-360-android-application---hopstock)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -105,15 +106,19 @@ This is a MEAN stack travel application with a Handlebars-based customer site an
 - For the **Software Design & Engineering** category, I completely rewrote the administrative interface using React and TypeScript, migrating from the older Angular implementation. This rewrite introduced reusable components, a vastly improved modern UI, consolidated form logic, and a fully security-hardened authentication system. Identified vulnerabilities (including a broken registration error handler, inconsistent API response shapes, incorrect HTTP status codes, raw internal error objects returned to the client, and JWT tokens stored in localStorage) were all resolved. Tokens are now issued as httpOnly cookies, and all administrative routes are protected by a dedicated ProtectedRoute component.<br>
   **[Read the complete narrative for Enhancement One →](/enhancement-one-narrative/)**
 
-- For the **Databases** category, I migrated the persistence layer from MongoDB to Firebase Authentication and Cloud Firestore, implementing typed service layers, least-privilege security rules, and role-based access control. Passwords are never stored in Firestore; user identity is handled entirely by Firebase Authentication, while only necessary profile and role metadata lives in a separate Firestore users collection.
+- For the **Databases** category, I further enhanced this artifact by migrating the entire database and authentication layer from MongoDB/Mongoose and Passport to Google Firebase. This included Cloud Firestore for trip and user data, Firebase Authentication for account identity management, typed TypeScript models, role-based access control, Zod validation, and comprehensive Firestore security rules.<br>
+  **[Read the complete narrative for Enhancement Three →](/enhancement-three-narrative/)**
 
 Prior to these enhancements, the following code review was performed, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancements:
 
 [![Code Review: CS-465 Full Stack Application](https://img.youtube.com/vi/Yff1AmTfMEM/0.jpg)](https://youtu.be/Yff1AmTfMEM){:target="_blank"}
 
-The enhanced version of the application is presented here as a pull request, with accompanying commentary of the changes made and how they address the identified weaknesses:
+These enhanced versions of the application are presented here as pull requests, with accompanying commentary of the changes made:
 
-<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/1" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> <strong>GitHub: Enhancement One Pull Request: React + Tailwind CSS Migration</strong></a>
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/4" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> <strong>GitHub: Enhancement One Pull Request: React + Tailwind CSS Migration</strong></a>
+
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/5" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> <strong>GitHub: Enhancement Three Pull Request: Google Firebase + Firestore Migration</strong></a>
+
 
 ---
 
@@ -136,4 +141,9 @@ The enhanced version of the application is presented here as a pull request, wit
 
 ---
 
+## Conclusion
 Together, these artifacts tell a cohesive story: I can take existing projects and evolve them into more professional, maintainable, secure, and genuinely useful applications. They demonstrate my ability to build and evaluate full-stack web applications, design and migrate databases, implement predictive algorithms, and communicate technical decisions clearly. This work aligns directly with my career as a web engineer, where cloud services, security, framework modernization, and data-driven interfaces are crucial skills.
+
+Thank you for reading!
+
+Stacey Marchand
