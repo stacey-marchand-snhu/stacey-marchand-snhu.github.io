@@ -137,9 +137,11 @@ Each artifact includes:
 
 ### **Artifact One**: CS-465 Full Stack Development - Travlr Website
 
+This is a MEAN stack travel application with a Handlebars-based customer site and an Angular administrative interface backed by MongoDB.
+
 ![CS-465 App Changes](/assets/images/CS465-app-change.png)
 
-This is a MEAN stack travel application with a Handlebars-based customer site and an Angular administrative interface backed by MongoDB. I enhanced this artifact in two ways:
+I enhanced this artifact in two ways:
 - For the **Software Design & Engineering** category, I completely rewrote the administrative interface using React and TypeScript, migrating from the older Angular implementation. This rewrite introduced reusable components, a vastly improved modern UI, consolidated form logic, and a fully security-hardened authentication system. Identified vulnerabilities (including a broken registration error handler, inconsistent API response shapes, incorrect HTTP status codes, raw internal error objects returned to the client, and JWT tokens stored in localStorage) were all resolved. Tokens are now issued as httpOnly cookies, and all administrative routes are protected by a dedicated ProtectedRoute component.<br>
   **[Read the complete narrative for Enhancement One →](/enhancement-one-narrative/)**
 
@@ -171,9 +173,10 @@ These enhanced versions of the application are presented here as pull requests, 
 
 ### **Artifact Two**: CS-360 Android Application - HopStock
 
+This is the warehouse stock management Android application I developed from scratch in CS-360.
+
 ![CS-360 App Changes](/assets/images/hopstock-app-change.png)
 
-This is the warehouse stock management Android application I developed from scratch in CS-360.
 - For the **Data Structures & Algorithms** category, I enhanced the app by adding timestamped stock movement history stored in a new Room database table, a graph screen for each item that plots stock levels over time, and a linear regression algorithm that calculates a best-fit trend line and estimates when an item's stock level may reach zero. This transforms the original inventory tracker into a lightweight decision-support tool that gives warehouse staff and managers predictive insight into restocking needs.
   <br>
   **[Read the complete narrative for Enhancement Two →](/enhancement-two-narrative/)**
