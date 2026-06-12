@@ -148,15 +148,19 @@ This is a MEAN stack travel application with a Handlebars-based customer site an
 
 Prior to these enhancements, the following code review was performed, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancements:
 
-<a href="https://youtu.be/Yff1AmTfMEM" target="_blank"><img src="/assets/images/youtube-logo.svg" alt="YouTube" style="height: 20px; margin-right: 6px; vertical-align: middle;"> <strong>YouTube: Code Review - CS-465 Full Stack Application</strong></a>
+<a href="https://youtu.be/Yff1AmTfMEM" target="_blank"><img src="/assets/images/youtube-logo.svg" alt="YouTube" style="height: 20px; margin-right: 6px; vertical-align: middle;"> YouTube: Code Review - CS-465 Full Stack Application</a>
 
 These enhanced versions of the application are presented here as pull requests, with accompanying commentary of the changes made:
 
-<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/4" target="_blank"><img src="/assets/images/pull-request.svg" alt="Pull Request" style="filter: brightness(0) saturate(100%) invert(31%) sepia(94%) saturate(1052%) hue-rotate(280deg); height: 24px; margin-right: 6px; vertical-align: middle;"> <strong>GitHub: Enhancement One Pull Request: React + Tailwind CSS Migration</strong></a><br>
-<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/5" target="_blank"><img src="/assets/images/pull-request.svg" alt="Pull Request" style="filter: brightness(0) saturate(100%) invert(31%) sepia(94%) saturate(1052%) hue-rotate(280deg); height: 24px; margin-right: 6px; vertical-align: middle;"> <strong>GitHub: Enhancement Three Pull Request: Google Firebase + Firestore Migration</strong></a>
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/4" target="_blank"><img src="/assets/images/pull-request.svg" alt="Pull Request" style="filter: brightness(0) saturate(100%) invert(31%) sepia(94%) saturate(1052%) hue-rotate(280deg); height: 24px; margin-right: 6px; vertical-align: middle;"> GitHub: Enhancement One Pull Request: React + Tailwind CSS Migration</a><br>
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/pull/5" target="_blank"><img src="/assets/images/pull-request.svg" alt="Pull Request" style="filter: brightness(0) saturate(100%) invert(31%) sepia(94%) saturate(1052%) hue-rotate(280deg); height: 24px; margin-right: 6px; vertical-align: middle;"> GitHub: Enhancement Three Pull Request: Google Firebase + Firestore Migration</a>
 
+**Download Artifact Files:**
 
----
+<a href="/downloads/cs-465-artifact-one-original.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Original Version</a> - Initial Handlebars + Angular implementation<br>
+<a href="/downloads/cs-465-artifact-one-enhancement-one-react.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement One</a> - React + Tailwind CSS + Security Hardening<br>
+<a href="/downloads/cs-465-artifact-one-enhancement-three-firebase.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Three</a> - Firebase + Firestore Migration
+
 
 ### **Artifact Two**: CS-360 Android Application - HopStock
 
@@ -174,11 +178,16 @@ This is the warehouse stock management Android application I developed from scra
 
 Prior to this enhancement, I also performed a code review on the original artifact, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancements:
 
-<a href="https://youtu.be/XjDkEHj9TWs" target="_blank"><img src="/assets/images/youtube-logo.svg" alt="YouTube" style="height: 20px; margin-right: 6px; vertical-align: middle;"> <strong>YouTube: Code Review - CS-360 Warehouse Inventory App</strong></a>
+<a href="https://youtu.be/XjDkEHj9TWs" target="_blank"><img src="/assets/images/youtube-logo.svg" alt="YouTube" style="height: 20px; margin-right: 6px; vertical-align: middle;"> YouTube: Code Review - CS-360 Warehouse Inventory App</a>
 
 The enhanced version of the application is presented here as a pull request, with accompanying commentary of the changes made and how they address the identified weaknesses:
 
-<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app/pull/1" target="_blank"><img src="/assets/images/pull-request.svg" alt="Pull Request" style="filter: brightness(0) saturate(100%) invert(31%) sepia(94%) saturate(1052%) hue-rotate(280deg); height: 24px; margin-right: 6px; vertical-align: middle;"> <strong>GitHub: Enhancement Two Pull Request: Adding Stock History + Graph Screen</strong></a>
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app/pull/1" target="_blank"><img src="/assets/images/pull-request.svg" alt="Pull Request" style="filter: brightness(0) saturate(100%) invert(31%) sepia(94%) saturate(1052%) hue-rotate(280deg); height: 24px; margin-right: 6px; vertical-align: middle;"> GitHub: Enhancement Two Pull Request: Adding Stock History + Graph Screen</a>
+
+**Download Artifact Files:**
+
+<a href="/downloads/cs-360-artifact-two-original.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Original Version</a> - Base warehouse inventory application<br>
+<a href="/downloads/cs-360-artifact-two-enhancement-two-stock-history.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Two</a> - Stock History + Graph + Linear Regression
 
 ---
 
