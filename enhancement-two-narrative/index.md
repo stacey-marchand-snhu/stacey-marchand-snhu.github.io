@@ -4,8 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-# Enhancement Two
-# Data Structures & Algorithms
+# Enhancement Two: Data Structures & Algorithms
 
 This narrative explains my enhancement to the CS-360 Mobile Application I created called "HopStock".
 
@@ -13,9 +12,9 @@ This narrative explains my enhancement to the CS-360 Mobile Application I create
 
 The original artifact was an Android mobile inventory application that allowed users to log in, view warehouse inventory, search and filter stock items, edit item details, update quantities, and receive out-of-stock notifications. It was a useful mobile application, but in its original form, it primarily reflected the current inventory state. A user could see how many units were available at the moment, but the app did not preserve enough historical stock information to help users understand how inventory levels were changing over time.
 
-**Original Artifact:** https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (Main Branch)</a>
 
-**Enhancement Two Branch:** https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app/tree/history-graph
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app/tree/history-graph" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Two (Stock History + Graph)</a>
 
 ## Justification & Improvement
 
@@ -54,8 +53,6 @@ The biggest learning experience in this enhancement was realizing that an algori
 One challenge was designing the stock history model to support the enhancement without disrupting the existing app or prior installations. Adding a new Room table required updating the database version, creating a migration, preserving existing records, and backfilling initial stock history for existing inventory items. Another challenge was making the graph readable and useful. Plotting the points was only part of the work; I also had to think about date formatting, axis scaling, interaction, marker details, trend-line rendering, and how to visually separate actual stock history from projected stock behavior. These details made the enhancement feel more complete because the algorithm's output became something a user could quickly and realistically interpret and explore.
 
 Overall, this enhancement gave me a stronger artifact for my ePortfolio because it demonstrates more than just mobile development skills; it shows that I can take an existing application, identify an opportunity for deeper value, design an appropriate data structure, implement and test an algorithm, evaluate trade-offs, and communicate the results clearly to users. HopStock is no longer just a simple inventory-quantity tracker app. It now leverages historical stock data to provide insight, communicate trends, and help facilitate better inventory management decisions.
-
----
 
 [← Back to Portfolio](/)
 

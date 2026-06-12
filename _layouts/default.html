@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/midnight-compiled.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/assets/js/respond.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>{{ site.title }}</h1>
+          <p>{{ site.tagline }}</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/stacey-marchand-snhu">{{ site.github.owner_name }}</a></span>
+          <span class="credits right">Hosted on GitHub Pages</span>
+        </div>
+
+        {{ content }}
+
+        <hr>
+        <footer style="text-align: center; font-size: 12px; color: #999; margin-top: 40px;">
+          <p>This site uses styling adapted from the <a href="https://github.com/pages-themes/midnight" style="color: #999;">Midnight theme</a> by <a href="https://twitter.com/mattgraham" style="color: #999;">Matt Graham</a>, licensed under the MIT License.</p>
+        </footer>
+
+      </section>
+
+    </div>
+  </body>
+</html>

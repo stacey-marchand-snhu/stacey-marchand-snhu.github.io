@@ -4,8 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-# Enhancement One
-# Software Design & Engineering
+# Enhancement One: Software Design & Engineering
 
 This narrative explains my first enhancement to the CS-465 Full Stack Web Application: A complete rewrite using React and Tailwind CSS for a vastly improved user experience.
 
@@ -13,9 +12,9 @@ This narrative explains my first enhancement to the CS-465 Full Stack Web Applic
 
 This was originally created as part of SNHU's CS-465 Full Stack Development course activities. The application is a travel site with a public-facing Express/Handlebars website, a MongoDB-backed REST API, and an administrative interface for managing trip records. For this enhancement, I focused on the administration site. The original admin interface was built in Angular, while the enhanced version rewrites it as a React and TypeScript single-page application using Vite, React Router, Tailwind CSS, reusable components, and a vastly more modern structure and appearance.
 
-**Original Artifact:** https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (Main Branch)</a>
 
-**Enhancement One Branch:** https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-one-react-tailwind
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-one-react-tailwind" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement One (React + Tailwind CSS)</a>
 
 ## Justification & Improvement
 
@@ -46,8 +45,6 @@ This enhancement comprehensively meets the course outcomes I planned to address 
 The enhancement process taught me that rewriting an application is not just a translational swap. Moving from Angular to React required me to rethink how the application should be structured, how shared behavior should be separated, and how security should be integrated. This involved careful thought about state management, route protection, reusable form design, API abstraction, token handling, and user feedback. One challenge was keeping the rewrite appropriately scoped; it would have been easy to start adding the later Firebase work here, but that would have blurred the purpose of this milestone. Instead, I kept the focus on software design and engineering: improving the architecture, usability, maintainability, and reliability of the existing application. In the real world, this emulates the skill of limiting deliverables to the scope of their requirements.
 
 Overall, this enhanced artifact is a stronger representation of my current abilities than the original CS-465 version. It shows that I can take an existing full-stack project, identify meaningful design weaknesses, modernize the front end, improve administrative workflows, strengthen validation and authentication, and document the results in a way that would help another developer understand the system they are walking into. For my ePortfolio, this artifact demonstrates not just that I can build software, but that I can improve software thoughtfully and explain the reasoning behind those improvements.
-
----
 
 [← Back to Portfolio](/)
 

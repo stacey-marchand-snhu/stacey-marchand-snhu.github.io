@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 ## Welcome!
-This is my ePortfolio, a collection of some of my capstone work from the Computer Science program at Southern New Hampshire University (SNHU). In here, you will find a brief overview of my academic and professional journey, along with a series of artifacts that demonstrate my skills and growth in software design, algorithms, databases, and more. Each artifact is accompanied by a narrative that explains the context, the enhancements I made, and how it relates to the course outcomes. I hope you find this portfolio informative and reflective of my dedication to continuous learning and professional development in the field of computer science!
+This is my ePortfolio, a collection of my capstone work from the Computer Science program at Southern New Hampshire University (SNHU). In here, you will find a brief overview of my academic and professional journey, along with a series of artifacts that demonstrate my skills and growth in software design, algorithms, databases, and more. Each artifact is accompanied by a narrative that explains its context, the enhancements I made, and how it relates to the course outcomes. I hope you find this portfolio informative and reflective of my dedication to continuous learning and professional development in the field of computer science!
 
 ---
 
@@ -21,15 +21,19 @@ This is my ePortfolio, a collection of some of my capstone work from the Compute
 
 ## About Me
 
-<div style="text-align: center; margin: 30px 0;">
-  <img src="/assets/images/portrait.jpg" alt="My Portrait" style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover;">
+<div style="display: flex; gap: 25px; align-items: flex-start;">
+  <div style="flex: 0 0 200px; flex-shrink: 0;">
+    <img src="/assets/images/portrait.jpg" alt="My Portrait" style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover; display: block;">
+  </div>
+  <div style="flex: 1; min-width: 0;">
+    <p style="margin-top: 0; line-height: 1.6;">Ever since I was a child, I've been fascinated by the capabilities of computers to manifest our creativity and solve problems. What started as youthful curiosity about how video games were made grew into a passion for truly leveraging technology to build elegant and optimal designs that have value in the real world. Over the course of the next 30 years, I went from dabbling in QBasic to becoming a principal software architect, contributing as a professional engineer to many areas of industry, including aerospace, defense, manufacturing, hospitality, insurance, and others.</p>
+  </div>
 </div>
-
-Ever since I was a child, I've been fascinated by the capabilities of computers to manifest our creativity and solve problems. What started as youthful curiosity about how video games were made grew into a passion for truly leveraging technology to build elegant and optimal designs that have value in the real world. Over the course of the next 30 years, I went from dabbling in QBasic to becoming a principal software architect, contributing as a professional engineer to many areas of industry, including aerospace, defense, manufacturing, hospitality, insurance, and others.
+<br>
 
 ### From Industry Experience to Formal Education
 
-Despite all of my experience, there were many gaps in my knowledge and skills that a formal education was needed to address. After many years in the field, I decided to finally pursue my CS degree at SNHU in May of 2023. My journey through this program has been transformative. What began as a desire to formalize decades of industry experience into an academic credential has become something much deeper: a structured, intentional examination of how software engineering principles, best practices, and professional values can drive meaningful impact. Over the past three years, I have developed an academic foundation that has solidified my skills and confidence in many unfamiliar areas of development, while filling critical gaps in my knowledge.
+Despite my experience, there were many gaps in my knowledge and skills that a formal education was needed to address. After many years in the field, I decided to finally pursue my CS degree at SNHU in May of 2023. My journey through this program has been transformative. What began as a desire to formalize decades of industry experience into an academic credential has become something much deeper: a structured, intentional examination of how software engineering principles, best practices, and professional values can produce a real impact. Over the past three years, I have developed an academic foundation that has solidified my skills and confidence in many unfamiliar areas of development, while filling critical gaps in my knowledge.
 
 The formal CS curriculum has grounded concepts I learned through practice (data structures, algorithms, machine learning, 3D graphics, and security principles) in rigorous theory. This combination of practical experience paired with formal computer science education has prepared me not just to continue my work as an engineer, but to lead teams, mentor others, and make architectural decisions with greater confidence and clarity. Through coursework in a diverse range of areas, I've gained expertise I can now apply with renewed purpose:
 
@@ -43,7 +47,7 @@ The formal CS curriculum has grounded concepts I learned through practice (data 
 - <span class="gold">Systems Thinking</span> - Architectural planning, diagramming, and communication.
 - <span class="gold">Security Principles</span> - Vulnerability remediation, bulletproof authentication, and more.
 
-All of the above have significantly improved (and contribute directly to) my everyday professional work as a software engineer, and this capstone project has brought together these experiences into a cohesive demonstration of growth and professional readiness.
+All of the above have significantly improved (and contributes directly to) my everyday professional work as a software engineer, and this capstone project has brought together these experiences into a cohesive demonstration of growth and professional readiness.
 
 ### Academic Recognition & Professional Experience
 
@@ -65,9 +69,11 @@ Throughout my academic journey with SNHU, I have been recognized on the **Honor 
 </div>
 <br>
 
+---
+
 ## Key Skills: Five Core Professional Competencies
 
-Throughout this program, I have deliberately developed proficiency across five core professional competencies. These competencies form the foundation of my readiness to enter or advance in the computer science field, and they represent my commitment to continuous learning and professional excellence. Each is supported by specific program experiences and reinforced through the artifacts included in this portfolio.
+Throughout this program, I have deliberately developed proficiency across five core professional competencies. These competencies form the foundation of my work in the computer science field, and they represent my commitment to continuous learning and professional excellence. Each is supported by specific program experiences and reinforced through the artifacts included in this portfolio.
 
 ### Collaboration & Team Environments
 
@@ -75,13 +81,13 @@ Throughout this program, I have deliberately developed proficiency across five c
 
 Throughout my entire career, the ability to collaborate within a team environment stands out as most critical to the success of projects and team longevity. The ability to cohesively function as a group, distribute and parallelize work, drive innovative thinking, and organize together is what sets truly successful companies apart from the rest. In every collaborative work, I have always seen it as my responsibility to help drive the team forward, learning and mentoring as we share in the development and lessons that every job entails. 
 
-Today, I work within an Agile squad, delivering software at a sustainable cadence and working together with star teammates to build a product that has immense value for our customers. This program has crystallized the lessons I've learned across decades of teamwork: I can now articulate why collaborative design reviews matter, how distributed teams can maintain alignment, and why mentoring the next generation of engineers is both a professional responsibility and a personal value. The artifacts in this portfolio, particularly the database migration in Artifact One and the predictive analytics feature in Artifact Two, demonstrate how I improve codebases in ways that make them easier for other developers to understand, maintain, and extend.
+Today, I work with an Agile squad, delivering software at a sustainable cadence and working together with star teammates to build a product that has immense value for our customers. This program has crystallized the lessons I've learned across years of teamwork: I can now articulate why collaborative design reviews matter, how distributed teams can maintain alignment, and why mentoring the next generation of engineers is both a professional responsibility and a personal value. The artifacts in this portfolio, particularly the database migration in Artifact One and the predictive analytics feature in Artifact Two, demonstrate how I improve codebases in ways that make them easier for other developers to understand, maintain, and extend.
 
 ### Communication & Technical Expression
 
 **Course Outcome:** <span class="gold">Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts</span>
 
-Communication is where technical skill becomes organizational value. No matter how elegant an algorithm or robust an architecture, if stakeholders don't understand its value, it fails to deliver impact. Throughout the program, I've had to communicate in many forms: detailed design documents, concise status updates, architectural diagrams, code comments, video explanations, and now this ePortfolio itself. I have learned to adapt my communication to different audiences, explaining intricate database migration decisions to fellow engineers while translating the same work into clear customer value for business stakeholders.
+Communication is where technical skill derives value. No matter how elegant an algorithm or robust an architecture, if stakeholders don't understand its value, it fails to deliver impact. Throughout the program, I've had to communicate in many forms: detailed design documents, concise status updates, architectural diagrams, code comments, video explanations, and now this ePortfolio itself. I have learned to adapt my communication to different audiences, explaining intricate database migration decisions to fellow engineers while translating the same work into clear customer value for business stakeholders.
 
 The practice of writing narratives for each enhancement has sharpened my ability to articulate not just what I did, but why it matters and what I learned. The enhanced UI in Artifact One communicates application states more clearly through toast notifications and confirmation dialogs, while the graph visualization in Artifact Two translates raw algorithmic output into insights that users can quickly understand and act upon.
 
@@ -97,7 +103,7 @@ Each project reinforced that the best solution isn't always the most complex one
 
 **Course Outcome:** <span class="gold">Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</span>
 
-Professional software development is about more than writing code; it's about building systems that scale, adapt, and survive. The program has exposed me to a breadth of modern tools and practices: React, TypeScript, Angular, Firebase, Firestore, MongoDB, Room persistence, Android development, 3D graphics with OpenGL, machine learning frameworks, and CI/CD principles. More importantly, I've learned when and why to use each tool. I've practiced choosing between MongoDB and Firestore, between local databases and cloud persistence, between direct API calls and abstracted repository patterns.
+Professional software development is about more than writing code; it's about building systems that scale, adapt, and survive. The program has exposed me to a breadth of modern tools and practices: React, TypeScript, Angular, Firebase, Firestore, MongoDB, Room persistence, Android development, 3D graphics with OpenGL, machine learning frameworks, multiple languages, and CI/CD principles. More importantly, I've learned when and why to use each tool. I've practiced migrating from MongoDB to Firestore, local to cloud persistence, and balancing between direct API calls and abstracted repository patterns.
 
 This program has shown me that being a great engineer means staying current with tools but also understanding the principles that make those tools valuable. Artifact One demonstrates this extensively through the React/TypeScript rewrite with modern tooling (Vite, Tailwind CSS, ESLint, Prettier), while Artifact Three shows cloud-native thinking through the Firebase and Firestore migration. Both artifacts represent state-of-the-art practices in professional software engineering.
 
@@ -105,13 +111,13 @@ This program has shown me that being a great engineer means staying current with
 
 **Course Outcome:** <span class="gold">Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources</span>
 
-Security was once compartmentalized in my thinking, something addressed at the end of a project or limited to specific security-focused roles. This program has integrated security as a foundational principle woven throughout all aspects of software design. In CS-465 Enhancement One, I identified and remediated multiple vulnerabilities, including insecure token storage (JWT in localStorage), missing input validation, incorrect HTTP status codes that leaked information, and raw internal error objects returned to clients. In CS-465 Enhancement Three, I migrated from custom password hashing to Firebase Authentication and added role-based authorization with Firestore security rules as a final layer of defense.
+Security was once compartmentalized in my thinking, something addressed separately in a project or limited to specific security-focused roles. This program has integrated security as a foundational principle woven throughout all aspects of software design. In CS-465 Enhancement One, I identified and remediated multiple vulnerabilities, including insecure token storage (JWT in localStorage), missing input validation, incorrect HTTP status codes that leaked information, and raw internal error objects returned to clients. In CS-465 Enhancement Three, I migrated from custom password hashing to Firebase Authentication and added role-based authorization with Firestore security rules as a final layer of defense.
 
 In CS-360, I strengthened the login workflow with password validation and login rate limiting. Each enhancement reinforced that security isn't a feature or a phase; it's a continuous mindset of assuming adversarial intent and designing systems to be resistant to exploitation. Authentication, authorization, input validation, least-privilege access, and secure error handling are now integrated into how I approach design from the ground up. The elimination of all detected vulnerabilities in the enhanced artifacts demonstrates my commitment to this principle.
 
 ### Moving Forward
 
-This program, and this capstone, have positioned me to move forward in my career with confidence. I have formalized my practical experience with academic rigor, I have filled gaps in my knowledge, and I have developed a reflective practice around continuous learning and professional growth. I am now better equipped to not only contribute as an individual engineer, but to lead teams, make architectural decisions, design for security and maintainability, and communicate technical concepts effectively. The field of computer science rewards both deep technical skill and the wisdom to apply that skill responsibly.
+This program, and this capstone, have positioned me to move forward in my career with confidence. I have formalized my practical experience with academic rigor, I have filled gaps in my knowledge, and I have developed a reflective practice around continuous learning and professional growth. I am now better equipped to not only contribute as an individual engineer, but to lead teams, make architectural decisions, design for security and maintainability, and communicate technical concepts effectively.
 
 ---
 
@@ -119,13 +125,13 @@ This program, and this capstone, have positioned me to move forward in my career
 
 The two artifacts presented in this portfolio provide concrete demonstrations of these five competencies in action. Rather than creating separate, disconnected artifacts for each competency, I have chosen to enhance two substantial, real-world projects, each addressing multiple outcomes. This approach demonstrates how professional software development inherently integrates these competencies rather than treating them as isolated skills.
 
-Each artifact has been substantially enhanced beyond its original version, with detailed narratives documenting not just the technical improvements, but the professional and technical learning that occurred through the enhancement process. The narratives focus on what I learned, the challenges I faced, and how I addressed them. They provide insight into my problem-solving approach, reflective practice, and commitment to continuous improvement.
+Each artifact has been significantly enhanced beyond its original version, with detailed narratives documenting not just the technical improvements, but the professional and technical learning that occurred through the enhancement process. The narratives focus on what I learned, the challenges I faced, and how I addressed them. They provide insight into my problem-solving approach, reflective practice, and commitment to continuous improvement.
 
 Each artifact includes:
-- **A detailed narrative** explaining the artifact, why it was selected, how it was enhanced, and which course outcomes were addressed
-- **A code review video** of the original artifact, demonstrating the application in its initial state and explaining the planned enhancements
-- **Original and enhanced** versions of the application source code, presented as branches in the GitHub repository
-- **A GitHub pull request** showing the enhancement in detail with technical commentary
+- <span class="gold">A detailed narrative</span> explaining the artifact, why it was selected, how it was enhanced, and how it addresses course outcomes.
+- <span class="gold">A code review video</span> of the original artifact, demonstrating the application and explaining the planned enhancements.
+- <span class="gold">Original and enhanced</span> versions of the application source code, presented as branches in GitHub and downloadable zip files.
+- <span class="gold">GitHub pull requests</span> showing the enhancements in detail with commentary.
 
 ---
 
@@ -142,7 +148,7 @@ This is a MEAN stack travel application with a Handlebars-based customer site an
 
 **GitHub Repository and Branches:**
 
-<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (main branch)</a><br>
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (Main Branch)</a><br>
 <a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-one-react-tailwind" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement One (React + Tailwind CSS)</a><br>
 <a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-three-firebase" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Three (Firebase + Firestore)</a>
 
@@ -161,6 +167,7 @@ These enhanced versions of the application are presented here as pull requests, 
 <a href="/downloads/cs-465-artifact-one-enhancement-one-react.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement One</a> - React + Tailwind CSS + Security Hardening<br>
 <a href="/downloads/cs-465-artifact-one-enhancement-three-firebase.zip" download><img src="/assets/images/archive-icon.svg" alt="Download" style="height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Three</a> - Firebase + Firestore Migration
 
+---
 
 ### **Artifact Two**: CS-360 Android Application - HopStock
 
@@ -173,10 +180,10 @@ This is the warehouse stock management Android application I developed from scra
 
 **GitHub Repository and Branch:**
 
-<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (main branch)</a><br>
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (Main Branch)</a><br>
 <a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-two-cs-360-mobile-app/tree/history-graph" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Two (Stock History + Graph)</a>
 
-Prior to this enhancement, I also performed a code review on the original artifact, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancements:
+Prior to this enhancement, I also performed a code review on the original artifact, demonstrating the application in its original state, walking through the codebase in detail, exploring weaknesses and vulnerabilities in the code, and explaining in detail the planned enhancement:
 
 <a href="https://youtu.be/XjDkEHj9TWs" target="_blank"><img src="/assets/images/youtube-logo.svg" alt="YouTube" style="height: 20px; margin-right: 6px; vertical-align: middle;"> YouTube: Code Review - CS-360 Warehouse Inventory App</a>
 

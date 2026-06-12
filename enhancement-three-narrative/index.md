@@ -4,8 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-# Enhancement Three
-# Databases
+# Enhancement Three: Databases
 
 This narrative explains my enhancement to the CS-465 Full Stack Application through a database and authentication architecture migration to Google Firebase.
 
@@ -13,9 +12,9 @@ This narrative explains my enhancement to the CS-465 Full Stack Application thro
 
 The selected artifact for the databases category is the Travlr Full Stack Application, originally created in CS-465 Full Stack Development and later enhanced in CS-499 through a React/TypeScript rewrite of the administration site. At the start of this database enhancement, the artifact already had a modern React admin interface, but it was still backed by the existing Express API, MongoDB/Mongoose data models, Passport authentication, and custom JSON Web Tokens. For this milestone, I further enhanced the artifact by migrating the application's database and authentication architecture to Google Firebase, specifically Cloud Firestore for trip and user data and Firebase Authentication for account identity.
 
-**Original Artifact:** https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Original Artifact (Main Branch)</a>
 
-**Enhancement Three Branch (Firebase/Firestore):** https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-three-firebase
+<a href="https://github.com/stacey-marchand-snhu/cs-499-artifact-one-cs-465-full-stack-app/tree/enhancement-three-firebase" target="_blank"><img src="/assets/images/mark-github-24.svg" alt="GitHub" style="filter: invert(1); height: 24px; margin-right: 6px; vertical-align: middle;"> Enhancement Three (Firebase + Firestore)</a>
 
 ## Justification & Improvement
 
@@ -50,8 +49,6 @@ This enhancement met the course outcomes I planned to address in Module One.
 The process of enhancing this artifact taught me that database migration is really an architecture redesign, not just a change in storage technology. I had to carefully think through what belonged in Firebase Authentication, what belonged in Firestore, and what still belonged in the Express API. One challenge was preserving the existing application behavior while changing the foundation underneath it. The admin portal still needed to manage trips through familiar API calls, and the public site still needed to display trip data, but the way that data was retrieved, validated, and protected changed substantially.
 
 Another challenge was keeping the migration scope and understanding clear. The goal was to improve the database and authentication architecture in a way that made sense for the artifact and demonstrated clear proficiency with a state-of-the-art persistence and authentication framework. By the end of the enhancement, the artifact had moved from a local MongoDB and custom user validation approach to a cloud-backed Firestore and Firebase Authentication model with strong typing, clear documentation, role-aware access control, and better API testing support. This makes the enhanced version a much stronger ePortfolio artifact because it shows that I can modernize an existing application's data architecture while preserving its purpose and improving its reliability, maintainability, and security.
-
----
 
 [← Back to Portfolio](/)
 
