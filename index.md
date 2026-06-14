@@ -21,15 +21,14 @@ This is my ePortfolio, a collection of my capstone work from the Computer Scienc
 
 ## About Me
 
-<div style="display: flex; gap: 25px; align-items: flex-start;">
-  <div style="flex: 0 0 200px; flex-shrink: 0;">
+<div class="about-me-flex" style="display: block; gap: 0;">
+  <div class="about-me-image" style="float: left; width: 200px; margin-right: 25px; margin-bottom: 15px;">
     <img src="/assets/images/portrait.jpg" alt="My Portrait" style="width: 200px; height: 200px; border-radius: 10px; object-fit: cover; display: block;">
   </div>
-  <div style="flex: 1; min-width: 0;">
+  <div class="about-me-text" style="display: block; width: auto;">
     <p style="margin-top: 0; line-height: 1.6;">Ever since I was a child, I've been fascinated by the capabilities of computers to manifest our creativity and solve problems. What started as youthful curiosity about how video games were made grew into a passion for truly leveraging technology to build elegant and optimal designs that have value in the real world. Over the course of the next 30 years, I went from dabbling in QBasic to becoming a principal software architect, contributing as a professional engineer to many areas of industry, including aerospace, defense, manufacturing, hospitality, insurance, and others.</p>
   </div>
 </div>
-<br>
 
 ### From Industry Experience to Formal Education
 

@@ -810,7 +810,7 @@ section #title h1 {
   font-weight: normal;
   font-size: 40px;
   text-align: center;
-  line-height: 36px;
+  line-height: 1.3;
 }
 section #title p {
   color: #d7cfbe;
@@ -846,6 +846,10 @@ section footer p {
 }
 
 @media print, screen and (max-width: 720px) {
+  section #title {
+    margin: 0 !important;
+    padding: 30px 20px !important;
+  }
   #title .credits {
     display: block;
     width: 100%;
@@ -870,6 +874,21 @@ section footer p {
   }
   nav {
     display: none;
+  }
+
+  section #title {
+    margin: 0 !important;
+    padding: 20px 15px !important;
+    overflow-x: hidden;
+  }
+
+  section #title h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  section #title p {
+    font-size: 16px;
   }
 }
 

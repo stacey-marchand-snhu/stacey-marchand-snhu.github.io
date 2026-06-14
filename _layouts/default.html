@@ -14,12 +14,18 @@
     <div class="wrapper">
 
       <section>
-        <div id="title">
-          <h1>{{ site.title }}</h1>
-          <p>{{ site.tagline }}</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/stacey-marchand-snhu">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages</span>
+        <div id="title" style="display: flex; flex-direction: column; background: url(/assets/images/nav-bg.gif) #353535;">
+          <div style="text-align: center; padding-bottom: 10px;">
+            <h1>{{ site.title }}</h1>
+          </div>
+          <div style="text-align: center; padding-bottom: 15px;">
+            <p>{{ site.tagline }}</p>
+          </div>
+          <div style="background: #ffcc00; height: 2px; margin: 15px 0 0 0; width: 100%;"></div>
+          <div class="credits-container" style="display: flex; gap: 20px; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 0;">
+            <span class="credits left">Project maintained by <a href="https://github.com/stacey-marchand-snhu">{{ site.github.owner_name }}</a></span>
+            <span class="credits right">Hosted on GitHub Pages</span>
+          </div>
         </div>
 
         {{ content }}

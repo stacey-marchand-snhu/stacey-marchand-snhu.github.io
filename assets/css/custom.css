@@ -8,18 +8,78 @@ strong.gold, b.gold {
   color: #D4AF37;
 }
 
+/* About Me section layout - use float for text wrapping */
+.about-me-flex {
+  display: block !important;
+  width: 100% !important;
+  gap: 0 !important;
+  align-items: unset !important;
+  overflow: auto !important;
+}
+
+/* Target the inline style to override flex */
+.about-me-flex[style*="display: flex"] {
+  display: block !important;
+}
+
+.about-me-image {
+  float: left !important;
+  margin-right: 25px !important;
+  margin-bottom: 15px !important;
+  flex: none !important;
+  width: 200px !important;
+  display: block !important;
+  flex-shrink: unset !important;
+  flex-basis: unset !important;
+}
+
+.about-me-image[style*="flex: 0 0"] {
+  flex: none !important;
+  width: 200px !important;
+  float: left !important;
+}
+
+.about-me-text {
+  display: block !important;
+  flex: none !important;
+  width: auto !important;
+  min-width: unset !important;
+  overflow: visible !important;
+  margin-top: 0 !important;
+}
+
+.about-me-text[style*="flex: 1"] {
+  flex: none !important;
+  width: auto !important;
+  display: block !important;
+}
+
 /* Header styling with background */
 section #title {
-  margin-bottom: 40px !important;
+  padding: 30px calc(50vw - 50%) 10px calc(50vw - 50%) !important;
+  display: flex !important;
+  flex-direction: column;
+  border-bottom: 4px solid #434343 !important;
+  border-top: 4px solid #434343 !important;
+  margin: 0 calc(-50vw + 50%) 30px calc(-50vw + 50%) !important;
 }
 
 section #title h1 {
   margin-top: 0 !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 5px !important;
+  padding: 0 !important;
 }
 
 section #title p {
-  margin-bottom: 10px !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+/* Add margin below horizontal rule for larger screens */
+@media (min-width: 720px) {
+  section #title > div:nth-child(3) {
+    margin-bottom: 10px !important;
+  }
 }
 
 section #title hr {
@@ -27,7 +87,102 @@ section #title hr {
 }
 
 section #title .credits {
-  margin-top: 10px !important;
+  margin: 0 !important;
+  font-size: 11px;
+  color: #696969;
+  text-align: left;
+}
+
+section #title .credits.left {
+  float: none;
+  text-align: left;
+}
+
+section #title .credits.right {
+  float: none;
+  text-align: right;
+}
+
+/* Prevent credits wrapping until 520px */
+@media (min-width: 521px) {
+  section #title .credits-container {
+    flex-wrap: nowrap !important;
+  }
+}
+
+/* Center credits when they wrap to new lines */
+@media (max-width: 520px) {
+  section #title .credits-container {
+    flex-wrap: wrap !important;
+  }
+
+  section #title .credits {
+    text-align: center;
+    width: 100%;
+  }
+
+  section #title .credits.left {
+    text-align: center;
+  }
+
+  section #title .credits.right {
+    text-align: center;
+  }
+
+  /* Reduce gap between stacked credits */
+  section #title .credits-container {
+    gap: 0 !important;
+  }
+}
+
+/* Increase padding for medium desktop */
+@media (min-width: 993px) {
+  section #title {
+    padding: 50px calc(50vw - 50%) 10px calc(50vw - 50%) !important;
+  }
+}
+
+/* Slight padding increase for tablet sizes */
+@media (max-width: 992px) and (min-width: 769px) {
+  section #title {
+    padding: 35px calc(50vw - 50%) 10px calc(50vw - 50%) !important;
+  }
+}
+
+/* Standard padding for smaller tablet */
+@media (max-width: 768px) and (min-width: 481px) {
+  section #title {
+    padding: 30px 20px 10px 20px !important;
+  }
+
+  section #title .credits {
+    font-size: 11px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  section #title {
+    padding: 30px 20px 10px 20px !important;
+    margin: 0 !important;
+    margin-bottom: 30px !important;
+  }
+
+  section #title .credits {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px !important;
+    line-height: 20px;
+  }
+
+  section #title .credits.left {
+    text-align: center;
+  }
+
+  section #title .credits.right {
+    text-align: center;
+  }
 }
 
 /* Widen the layout for better readability */
@@ -41,15 +196,138 @@ section {
   margin-top: 14px !important;
 }
 
+/* Increase line height for title to give more space between lines */
+section #title h1 {
+  line-height: 1.2 !important;
+}
+
+
 /* Responsive adjustments */
 @media (max-width: 992px) {
   .wrapper {
     max-width: 750px !important;
   }
+
+  /* About Me section - make text wrap around portrait on tablet */
+  .about-me-flex {
+    display: block !important;
+    width: 100%;
+  }
+
+  .about-me-image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    flex: none !important;
+    width: 180px !important;
+    display: block !important;
+  }
+
+  .about-me-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .about-me-text {
+    display: block !important;
+    flex: none !important;
+    width: auto !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .about-me-text p {
+    margin-top: 0 !important;
+    display: block !important;
+  }
 }
 
 @media (max-width: 768px) {
   .wrapper {
-    max-width: 100% !important;
+    max-width: calc(100% - 20px) !important;
+    margin: 0 auto;
+    padding: 0 10px !important;
+  }
+
+  section {
+    padding: 0 10px !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+  }
+
+  /* About Me section - make text wrap around portrait on smaller screens */
+  .about-me-flex {
+    display: block !important;
+    width: 100%;
+  }
+
+  .about-me-image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    flex: none !important;
+    width: 180px !important;
+    display: block !important;
+  }
+
+  .about-me-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .about-me-text {
+    display: block !important;
+    flex: none !important;
+    width: auto !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .about-me-text p {
+    margin-top: 0 !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 10px !important;
+  }
+
+  section {
+    padding: 0 10px !important;
+  }
+
+  /* About Me section - make text wrap around portrait on mobile */
+  .about-me-flex {
+    display: block !important;
+    width: 100%;
+  }
+
+  .about-me-image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    flex: none !important;
+    width: 180px !important;
+    display: block !important;
+  }
+
+  .about-me-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .about-me-text {
+    display: block !important;
+    flex: none !important;
+    width: auto !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .about-me-text p {
+    margin-top: 0 !important;
+    display: block !important;
   }
 }
